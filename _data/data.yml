@@ -3,30 +3,30 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Håvard Langdal
     tagline: Software Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: havardlangdal@gmail.com
     phone: +47 46420821
     timezone: CET
     citizenship: Norwegian
-    website: blog.webjeda.com #do not add http://
+    website: # blog.webjeda.com #do not add http://
     linkedin: h%C3%A5vard-langdal-63867611a/
     github: havlan
-    telegram: HaavTheBountyHunter# add your nickname without '@' sign
+    telegram: # HaavTheBountyHunter
     gitlab:
     bitbucket:
     twitter: '@HavardLangdal'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: # http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -46,83 +46,51 @@ sidebar:
         - item: Ski mountaneering
           link:
 
-        - item: 
+        - item: XC skiing
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      Software engineer with experience from running and developing large scale distributed systems in Microsoft.
+      Interested in information retrieval, performance, databases and distributed systems.
+      In my current role I have been doing service migrations, A/B experiments, performance and reliability improvements in a service that provides feed-like APIs.
+
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Software Engineer, Software Engineer 2
+        time: 2020 - Present
+        company: Microsoft Develoment Center Norway, Trondheim/Remote
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          In my time in Microsoft I have been working in two teams.
+          The first team owns services responsible for ingesting billions of documents and data into a proprietary cloud for content to become searchable and used in a large set of client experiences within Office 365.
+          My work here was about moving a distributed system from old and outdated hardware to an Azure Worker role for reduced COGS and performance.
+
+          In my current team I have been responsible for A/B experimentation in relation to a large scale service migration. New service serves a few hundred million requests per day with increased relevancy and user engagement.
+          Other noteworthy impact has been moving a service to Azure, caching, backend part of infinite scroll and query planning.
+          In both teams I have been striving to improve team culture and diversity and inclusion by doing interviews.
+
+      - role: Software Engineer
+        time: 2019 - 2020
+        company: Busy, Remote
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          In Busy I had a full-stack role which involved frontend development with React, backend development with node.js express, android development using Kotlin and I also touched upon the various types of data storage we used (firebase, PostgreSQL).
+          My primary impact on Busy was my contributions for the firebase to SQL migration, and how to solve that without taking too much risk. Other noteworthy impact of my time there was SQL query optimization, contributing to the android app and doing the proof of concept on aggregated statistics.
+
+      - role: Software Engineer Intern
+        time: 2019 - 2019
+        company: Microsoft Development Center Norway, Trondheim
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          During this internship I was set in charge of making scaling of a complex distributed system running more than 10k machines on average, more robust.
+          The outcome was a scaling strategy which prevented scale-in in situations where the limiting resource of the workers was different than what the old strategies looked at.
+
+      - role: Software Engineer Intern
+        time: 2018 - 2018
+        company: Uninett, Trondheim
+        details: |
+          Logging as a service customers wants cusom alerting setup, contributed a bit to open source Kibana alerting https://github.com/sentinl/sentinl, made documentation and thorough product evaluation.
+          Elastic Filebeat autodiscover log shipping from Kubernetes clusters.
 projects:
     title: Projects
     intro: >
@@ -150,6 +118,22 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
+education:
+    title: Education
+    info:
+      - degree: MSc in Computer Science
+        university: Norwegian University of Science and Technology
+        time: 2018 - 2020
+        details: |
+          In this masters degree I secialized in databases and search, this meant learning about distributed systems, information retrieval and databases.
+          In my masters thesis I did experimental work to dive into how cache replacement policies worked and how they could be improved (in-memory caches).
+
+      - degree: BSc in Computer Engineering
+        university: Norwegian University of Science and Technology
+        time: 2015 - 2018
+        details: |
+            In this bachelors degree I learned the basics of computer science, which includes programming basics, mathematics, computer architecture, software engineering and algorithms and data structures.
+
 oss:
     title: OSS Contributions
     intro: >
@@ -169,49 +153,27 @@ oss:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: C# and .NET
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Java
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: Azure
+        level: 70%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: JavaScript
         level: 60%
+
+      - name: Python
+        level: 50%
+      
+      - name: Go
+        level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
