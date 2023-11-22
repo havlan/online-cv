@@ -54,7 +54,8 @@ career-profile:
     summary: |
       Software engineer with experience from running and developing large scale distributed systems in Microsoft.
       Interested in information retrieval, performance, databases and distributed systems.
-      In my current role I have been doing service migrations, A/B experiments, performance and reliability improvements in a service that provides feed-like APIs.
+      In my current role I am leading the "shiending" effort in our feature crews, which means ensuring we have on-call and that service is healthy at all times.
+      As of feature work I have done service migrations, A/B experiments, performance and reliability improvements in a service that provides feed-like APIs serving many clients such as Teams, Outlook, Windows, Sharepoint, Office and Viva, which ends up being about 3B requests per day.
 
 experiences:
     title: Experiences
