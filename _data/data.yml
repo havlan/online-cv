@@ -67,9 +67,9 @@ experiences:
           The first team owns services responsible for ingesting billions of documents and data into a proprietary cloud for content to become searchable and used in a large set of client experiences within Office 365.
           My work here was about moving a distributed system from old and outdated hardware to an Azure Worker role for reduced COGS and performance.
 
-          In my current team I have been responsible for A/B experimentation in relation to a large scale service migration. New service serves a few hundred million requests per day with increased relevancy and user engagement.
-          Other noteworthy impact has been moving a service to Azure, caching, backend part of infinite scroll and query planning.
-          In both teams I have been striving to improve team culture and diversity and inclusion by doing interviews.
+          In my current team I have been responsible for several things, such as a large scale service migration (billions of requests per month), implementing infinite scrolling, leading the feature crew "on-call" work and more.
+          The latest project I was in was utilizing processor/job technologies to pre-process data from certain slow APIs to overcome latency challenges. 
+          For me specifically this involved A/B experimentation, statistics, rollout, implementation work and partner communication. We were able to improve the number of highlights viewed by bringing the latency down from several seconds to 150ms P95, on 99,9% reliability.
 
       - role: Software Engineer
         time: 2019 - 2020
